@@ -1,3 +1,3 @@
 module FoundationAppsStyles
-  VERSION = '0.0.1'
+  VERSION = '1.1.0' # follows the latest foundation for apps version
 end
