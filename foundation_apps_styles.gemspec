@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'foundation_apps_styles/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "foundation-apps-styles"
+  spec.name          = "foundation_apps_styles"
   spec.version       = FoundationAppsStyles::VERSION
   spec.authors       = ["Steve Talcott Smith and Eumir Gaspar"]
   spec.email         = ["steve+eumir@aelogica.com"]
 
   spec.summary       = %q{Foundation for Apps without the JS}
   spec.description   = %q{Foundation for Apps without the JS}
-  spec.homepage      = "https://github.com/aelogica/foundation-apps-styles"
+  spec.homepage      = "https://github.com/aelogica/foundation_apps_styles"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
